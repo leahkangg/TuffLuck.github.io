@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Order Online - Tuff Luck</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <style>
+        body {
+            background-color: #8c2626; /* Background color */
+        }
+
+        /* Order Option Styling */
+        .order-option {
+            font-size: 5vw; /* Scales dynamically based on screen width */
+            margin: 8vh 0; /* Responsive vertical spacing */
+            text-align: center;
+            color: #2a9d8f;
+        }
+
+        .order-option a {
+            color: #f8ffa9; 
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 3vw; /* Adjusts with screen size */
+        }
+
+        .order-option p {
+            font-size: 3vw; /* Text scales dynamically */
+            color: white;
+        }
+
+        /* Ensure links are clearly visible */
+        .order-option a:hover {
+            text-decoration: underline;
+        }
+
+        /* Heading styles */
+        h1 {
+            text-align: center;
+            color: rgb(252, 243, 207);
+            font-size: 4vw; /* Scales based on screen size */
+            margin-top: 10vh;
+        }
+
+        /* Navbar & Logo Responsiveness */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            font-size: 28px;
+        }
+
+        .navbar-brand img {
+            max-height: 40px; 
+            margin-right: 8px;
+        }
+
+        /* Address Styling for Pickup */
+        .pickup-address {
+            display: block;
+            margin-top: 1em;  /* Adds space above the address */
+            font-size: 3.5vw; /* Slightly larger font size for the address */
+            line-height: 1.5;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .order-option {
+                font-size: 6vw; /* Increase size for smaller screens */
+            }
+
+            .order-option a {
+                font-size: 5vw;
+            }
+
+            h1 {
+                font-size: 7vw;
+            }
+
+            .pickup-address {
+                font-size: 5vw; /* Adjust the size for smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .order-option {
+                font-size: 7vw; /* Bigger for mobile */
+            }
+
+            .order-option a {
+                font-size: 6vw;
+            }
+
+            h1 {
+                font-size: 8vw;
+            }
+
+            .pickup-address {
+                font-size: 6vw; /* Bigger font size for small devices */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MENU -->
+    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+
+                <!-- Logo Text Here with Logo Image -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo.png" alt="Tuff Luck Logo">Tuff Luck
+                </a>
+            </div>
+
+            <!-- MENU LINKS -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-nav-first">
+                    <li><a href="index.html" class="smoothScroll">Home</a></li>
+                    <li><a href="menu.html" class="smoothScroll">Menu</a></li>
+                    <li><a href="order.html" class="smoothScroll">Order Online</a></li>
+                    <li><a href="hours.html" class="smoothScroll">Contact and Hours</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a> Call For Pickup! 214-238-0145</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Order Online Section -->
+    <section id="order-online">
+        <div class="container">
+            <h1>Order Now!</h1>
+            <div class="order-option">
+                <p>+ Deliver through <a href="https://www.doordash.com" target="_blank"><u>DoorDash</u></a></p>
+            </div>
+            <div class="order-option">
+                <p>+ Deliver through <a href="https://www.ubereats.com" target="_blank"><u>Uber Eats</u></a></p>
+            </div>
+            <div class="order-option">
+                <p>+ Call for pickup: <a href="tel:+12142380145"><u>214-238-0145</u></a></p>
+            </div>
+            <div class="order-option pickup-address">
+                <p>+ Address for Pickup: <a href="https://maps.app.goo.gl/LNGRseP69f5DYetS9" target="_blank"><br><br><u>2527 Royal Ln Unit #130, Dallas, TX 75229</u></a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
